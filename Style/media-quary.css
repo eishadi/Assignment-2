@@ -1,0 +1,60 @@
+
+@media screen and (max-width: 576px) {
+    .nav-logo-tittle,
+    .home-color,
+    .about-color,
+    .facilities-color,
+    .admission-color,
+    .nav-btn-part
+    {
+        display: none;
+    }
+    .navber{
+        padding-bottom: 20px;
+        border-bottom:  0.5px solid rgb(254, 163, 1);
+    }
+    .menuber{
+        visibility: visible;
+    }
+    .header-part{
+        flex-direction: column-reverse;
+        text-align: center;
+        padding: 20px;
+        font-size: 10px;
+    }
+    .header-tittle{
+        font-size: 38px;
+        margin-top: 20px;
+    }
+    .header-description{
+        font-size: 18px;
+    }
+    .hero-kids-img{
+        width: 350px;
+        height: 450px;
+        margin-top: -30px;
+        margin-left: 0px;
+    }
+/* Standard Curriculum Section */
+    .sc-container{
+        flex-direction: column;
+    }
+    .kinder-content,
+    .elementary-content,
+    .middle-content
+    {
+        padding: 10px;
+        margin: 10px;
+        margin-left: 22px;
+    }
+    .sc-tittle{
+        padding-top: 40px;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+        font-size: 38px;
+        margin-left: 20px;
+    }
+    .sc-arrow{
+        display: none;
+    }
+}
