@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Our Stories  -->
+    <section class="Our-Stories-Part">
+        <h1 class="os-tittle section-tittle">Our Stories</h1>
+        <div class="os-container display_flex">
+            <div class="story-1-box"> 
+                <button class="story-1-btn">November 19, 2019</button>
+                <div class="story-1-description">
+                    <h4 class="section-card-tittle">A fun toddler coloring training on<br>classroom</h4>
+                <p class="story-1-subtittle section-card-description">Beautiful branding for changes by Never Now Australia.<br>Changes is a platform for open discussion in an inclusive and collaborative environment, providing the...</p>
+                </div>
+            </div>
+            <div class="story-container display_grid">
+                <div class="story-2-box">
+                    <button class="story-2-btn story-container-btn">December 19, 2019</button>
+                    <div class="story-tittle">
+                        <h4 class="story-container-tittle">Find out if a school fits the<br>family’s needs</h4>
+                    </div>
+                </div>
+                <div class="story-3-box">
+                    <button class="story-3-btn story-container-btn">October 19, 2019</button>
+                    <div class="story-tittle">
+                        <h4>Summer math & literacy<br>centres for kids</h4>
+                    </div>
+                </div>
+                <div class="story-4-box">
+                    <button class="story-4-btn story-container-btn">September 10, 2019</button>
+                    <div class="story-tittle">
+                        <h4>Classroom management<br>techniques for new tutors</h4>
+                    </div>
+                </div>
+                <div class="story-5-box">
+                    <button class="story-5-btn story-container-btn">July 19, 2019</button>
+                    <div class="story-tittle">
+                        <h4>Conversation rhymes<br>improve kids listening</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="os-btn">
+            <button class="btn-primary">View All</button>
+        </div>
+    </section>
+</body>
+
+
+
+
+/* Our Stories Section  */
+.display_grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.os-container{
+    background: url(image),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+}
+.story-1-box{
+    background: url(../Assets/story-1.png);
+    background-repeat: no-repeat;
+    box-shadow: 0px 0px 28.3px 0.94px rgba(248, 244, 244, 0.979);
+    border-radius: 20px;
+    margin-right: -50px;
+}
+.story-1-description{
+    padding: 30px;
+    padding-top: 20px;
+}
+.story-1-subtittle{
+    width: 430px;
+}
+.story-1-btn{
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    background-color: rgb(60, 216, 232);
+    margin-top: 315px;
+    margin-left: 40px;
+}
+.story-2-box{
+    background: url(../Assets/story-2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-shadow: 0px 0px 28.3px 0.94px rgba(248, 244, 244, 0.979);
+    border-radius: 20px;
+    width: 320px;
+    height: 340px;
+}
+.story-tittle{
+    padding-left: 25px;
+    padding-top: 25px;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-left: 20px;
+}
+.story-container-btn{
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    background-color: rgb(60, 216, 232);
+    margin-top: 170px;
+    margin-left: 40px;
+}
+.story-3-box{
+    background: url(../Assets/story-3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-shadow: 0px 0px 28.3px 0.94px rgba(248, 244, 244, 0.979);
+    border-radius: 20px;
+    width: 320px;
+    height: 340px;
+}
+.story-4-box{
+    background: url(../Assets/story-4.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-shadow: 0px 0px 28.3px 0.94px rgba(248, 244, 244, 0.979);
+    border-radius: 20px;
+    width: 320px;
+    height: 340px;
+}
+.story-5-box{
+    background: url(../Assets/story-5.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-shadow: 0px 0px 28.3px 0.94px rgba(248, 244, 244, 0.979);
+    border-radius: 20px;
+    width: 320px;
+    height: 340px;
+}
+.story-2-btn{
+    background-color: rgb(240, 170, 0);
+}
+.story-3-btn{
+    background-color: rgb(60, 182, 91);
+}
+.story-4-btn{
+    background-color: rgb(202, 36, 36);
+}
+.story-5-btn{
+    background-color: rgb(135, 0, 255);
+    margin-left: 50px;
+}
+.os-btn{
+    text-align: center;
+    margin-top: 100px;
+}
+</html>

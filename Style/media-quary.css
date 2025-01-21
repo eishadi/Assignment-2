@@ -1,60 +1,167 @@
 
 @media screen and (max-width: 576px) {
-    .nav-logo-tittle,
-    .home-color,
-    .about-color,
-    .facilities-color,
-    .admission-color,
-    .nav-btn-part
-    {
-        display: none;
-    }
-    .navber{
-        padding-bottom: 20px;
-        border-bottom:  0.5px solid rgb(254, 163, 1);
-    }
-    .menuber{
-        visibility: visible;
-    }
-    .header-part{
-        flex-direction: column-reverse;
-        text-align: center;
-        padding: 20px;
-        font-size: 10px;
-    }
-    .header-tittle{
-        font-size: 38px;
-        margin-top: 20px;
-    }
-    .header-description{
-        font-size: 18px;
-    }
-    .hero-kids-img{
-        width: 350px;
-        height: 450px;
-        margin-top: -30px;
-        margin-left: 0px;
-    }
+.nav-logo-tittle,
+.home-color,
+.about-color,
+.facilities-color,
+.admission-color,
+.nav-btn-part
+{
+    display: none;
+}
+.btn-primary{
+    font-size: 16px;
+    padding: 10px 45px;
+}
+.navber{
+    padding-bottom: 20px;
+    border-bottom:  0.5px solid rgb(254, 163, 1);
+}
+.menuber{
+    visibility: visible;
+}
+.header-part{
+    flex-direction: column-reverse;
+    text-align: center;
+    padding: 20px;
+    font-size: 10px;
+}
+.header-tittle{
+    font-size: 38px;
+    margin-top: 20px;
+}
+.header-description{
+    font-size: 18px;
+}
+.hero-kids-img{
+    width: 350px;
+    height: 450px;
+    margin-top: -30px;
+    margin-left: 0px;
+}
 /* Standard Curriculum Section */
-    .sc-container{
-        flex-direction: column;
-    }
-    .kinder-content,
-    .elementary-content,
-    .middle-content
-    {
-        padding: 10px;
-        margin: 10px;
-        margin-left: 22px;
-    }
-    .sc-tittle{
-        padding-top: 40px;
-        padding-bottom: 20px;
-        margin-bottom: 20px;
-        font-size: 38px;
-        margin-left: 20px;
-    }
-    .sc-arrow{
-        display: none;
-    }
+.sc-container{
+    flex-direction: column;
+}
+.kinder-content,
+.elementary-content,
+.middle-content
+{
+    padding: 10px;
+    margin: 10px;
+}
+.section-tittle{
+    padding-top: 100px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    font-size: 38px;
+}
+.sc-arrow, 
+.story-1-box
+{
+    display: none;
+}
+
+/* Our Stories Section */
+.section-tittle{
+    font-size: 30px;
+    margin: 0px;
+    margin-top: 70px;
+    padding-top: 120px;
+}
+.os-tittle{
+    padding: 0px;
+    margin-bottom: 40px;
+}
+.story-tittle{
+    padding: 10px;
+    padding-left: 15px;
+}
+.story-container{
+    margin: 0px auto;
+    gap: 10px;
+}
+.story-img{
+    width: 180px;
+    height: 140px;
+}
+.story-2-box{
+    width: 180px;
+    height: 220px;
+}
+.story-2-btn{
+    font-size: 9px;
+    margin-left: -20px;
+    margin-top: 10px;
+    padding: 10px 20px;
+}
+.story-3-box{
+    width: 180px;
+    height: 220px;
+}
+.story-3-btn{
+    font-size: 9px;
+    margin-left: -20px;
+    margin-top: 10px;
+    padding: 10px 20px;
+}
+.story-4-box{
+    width: 180px;
+    height: 220px;
+}
+.story-4-btn{
+    font-size: 9px;
+    margin-left: -20px;
+    margin-top: 10px;
+    padding: 10px 20px;
+}
+.story-5-box{
+    width: 180px;
+    height: 220px;
+}
+.story-5-btn{
+    font-size: 9px;
+    margin-left: -20px;
+    margin-top: 10px;
+    padding: 10px 20px;
+}
+.story-tittle{
+    font-size: 12px;
+}
+/* Footer Section */
+.Footer-Part{
+    flex-direction: column;
+}
+footer{
+    padding: 10px;
+    padding-top: 30px;
+    overflow-x: hidden;
+}
+.aboutber{
+    margin: 0px;
+}
+.contact{
+    margin: 0px;
+    margin-bottom: 40px;
+}
+.foot-tittle{
+    margin-top: 50px;
+}
+.kids-tittle{
+    font-size: 1.8rem;
+    margin: 0px;
+    margin-left: 10px;
+}
+.kids-logo{
+    height: 60px;
+}
+.kids-subtittle{
+    width: 350px;
+    height: 80px;
+    margin: 0px;
+    margin-top: 40px;
+}
+.kids-lt{
+    margin-top: 30px;
+}
 }
