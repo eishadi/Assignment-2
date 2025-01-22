@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
-
 .quicksand-font {
     font-family: "Quicksand", serif;
     font-optical-sizing: auto;
@@ -14,9 +13,6 @@
     max-width: 1400px;
     
 }
-
-
-
 
 /* Shared Design */
 .display_flex{
@@ -133,7 +129,6 @@ li > a{
     margin-bottom: 24px;
     font-size: 1.25rem;
 }
-
 /* Standard Curriculum Section */
 .Standard-Curriculum-Part{
     background-image: url(../Assets/bg.png);
@@ -284,47 +279,49 @@ li > a{
     margin-top: 50px;
     margin-bottom: 50px;
 }
-
 /* Footer Section */
 footer{
     background-color: rgb(1, 172, 253);
     color: white;
-    padding: 100px 150px;
+    padding: 120px 50px;
 }
-.kids-description{
-    width: 400px;
+.kids-lt{
+    align-items: center;
 }
 .kids-logo{
-    margin: 0px;
-    height: 90px;
+    height: 80px;
+    width: 80px;
+    margin: 0;
+    margin-right: 10px;
 }
 .kids-tittle{
-    margin-left: 20px;
-    font-size: 2.62rem;
+    margin: 0;
+    font-size: 2.625rem;
     font-weight: 700;
-    height: 60px;
-
 }
 .kids-subtittle{
-    margin-top: 45px;
-    font-size: 1.1rem;
-    font-weight: 400;
+    max-width: 400px;
+    max-height: 100px;
+    margin-top: 30px;
 }
 .foot-tittle{
     font-size: 1.5rem;
     font-weight: 700;
-    margin-bottom: 30px;
-}
-.foot-content{
-    color: rgba(255, 255, 255, 0.726);
-    font-size: 1.25rem;
-    font-weight: 500;
+    margin-bottom: 32px;
 }
 .aboutber > ul > li{
     margin-top: 20px;
 }
+.aboutber > ul > li > a{
+    color: rgba(255, 255, 255, 0.74);
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+.contact-img{
+    margin-left: 8px;
+}
 /* Marque Tag Styles */
-.Kid-Education-M{
+.Kid-SCHOOL-M{
     overflow: hidden;
     white-space: nowrap;
     box-sizing: border-box;

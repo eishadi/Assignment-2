@@ -133,9 +133,8 @@
     flex-direction: column;
 }
 footer{
-    padding: 10px;
-    padding-top: 30px;
-    overflow-x: hidden;
+    padding: 20px;
+    padding-top: 40px;
 }
 .aboutber{
     margin: 0px;
@@ -145,15 +144,18 @@ footer{
     margin-bottom: 40px;
 }
 .foot-tittle{
-    margin-top: 50px;
+    margin-top: 35px;
 }
 .kids-tittle{
     font-size: 1.8rem;
     margin: 0px;
-    margin-left: 10px;
 }
 .kids-logo{
     height: 60px;
+    width: 60px;
+}
+.kids-description{
+    margin: 0;
 }
 .kids-subtittle{
     width: 350px;
